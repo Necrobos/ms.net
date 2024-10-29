@@ -1,0 +1,6 @@
+@Avito.Service_HostAddress = http://localhost:5272
+
+GET {{Avito.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
