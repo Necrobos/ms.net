@@ -30,6 +30,8 @@ DELETE — Продавцы могут удалять свои свои това
 _____________________
 
 # Пример базы для задачи
-___
-![ms net laba]((https://github.com/user-attachments/assets/70e51ac6-ec83-466e-90ab-a56c3b85dd5d)
+![ms laba](https://github.com/user-attachments/assets/79bf3e36-3270-432a-b631-d0d2ac958ed5)
+
+
+
 )
