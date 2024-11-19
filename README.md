@@ -31,5 +31,5 @@ _____________________
 
 # Пример базы для задачи
 ___
-![ms net laba](![image](https://github.com/user-attachments/assets/70e51ac6-ec83-466e-90ab-a56c3b85dd5d)
+![ms net laba]((https://github.com/user-attachments/assets/70e51ac6-ec83-466e-90ab-a56c3b85dd5d)
 )
