@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avito.Service", "Avito.Service\Avito.Service.csproj", "{BBDA63E0-B30F-4747-BA76-924CA5247FAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avito.DataAccess", "Avito.DataAccess\Avito.DataAccess.csproj", "{F7409DAB-82C1-44A2-A194-5025CFFF5A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avito.Repository", "Avito.Repository\Avito.Repository.csproj", "{D0D57D1A-9223-4C24-A1D1-4FE5A6D73F15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{BBDA63E0-B30F-4747-BA76-924CA5247FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBDA63E0-B30F-4747-BA76-924CA5247FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBDA63E0-B30F-4747-BA76-924CA5247FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7409DAB-82C1-44A2-A194-5025CFFF5A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7409DAB-82C1-44A2-A194-5025CFFF5A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7409DAB-82C1-44A2-A194-5025CFFF5A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7409DAB-82C1-44A2-A194-5025CFFF5A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D57D1A-9223-4C24-A1D1-4FE5A6D73F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D57D1A-9223-4C24-A1D1-4FE5A6D73F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D57D1A-9223-4C24-A1D1-4FE5A6D73F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D57D1A-9223-4C24-A1D1-4FE5A6D73F15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
