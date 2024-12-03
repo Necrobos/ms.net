@@ -1,3 +1,4 @@
+using Avito.DataAccess;
 using Avito.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -5,17 +6,17 @@ namespace Avito.Repository;
 
 public class Repository<T> : IRepository<T> where T : BaseEntity
 {
-    private readonly IDbContextFactory<DbContext> _contextFactory;
+    private readonly IDbContextFactory<AvitoDbContext> _contextFactory;
 
-    public Repository(IDbContextFactory<DbContext> contextFactory)
+    public Repository(IDbContextFactory<AvitoDbContext> contextFactory)
     {
         _contextFactory = contextFactory;
     }
 
-    public IQueryable<T> GetAll()
+    public IEnumerable<T> GetAll()
     {
         using var context = _contextFactory.CreateDbContext();
-        return context.Set<T>();
+        return context.Set<T>().ToList();
     }
 
     public T? GetById(int id)

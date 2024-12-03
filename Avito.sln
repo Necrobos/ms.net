@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avito.DataAccess", "Avito.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avito.Repository", "Avito.Repository\Avito.Repository.csproj", "{D0D57D1A-9223-4C24-A1D1-4FE5A6D73F15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avito.BL", "Avito.BL\Avito.BL.csproj", "{6B34CEF2-4620-412D-8EFD-64CD2DAC25DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D0D57D1A-9223-4C24-A1D1-4FE5A6D73F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0D57D1A-9223-4C24-A1D1-4FE5A6D73F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0D57D1A-9223-4C24-A1D1-4FE5A6D73F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B34CEF2-4620-412D-8EFD-64CD2DAC25DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B34CEF2-4620-412D-8EFD-64CD2DAC25DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B34CEF2-4620-412D-8EFD-64CD2DAC25DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B34CEF2-4620-412D-8EFD-64CD2DAC25DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
